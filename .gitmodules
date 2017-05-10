@@ -1,3 +1,6 @@
 [submodule "Arduino-Makefile"]
 	path = Arduino-Makefile
 	url = https://github.com/sudar/Arduino-Makefile
+[submodule "mcu/libraries/RTClib"]
+	path = mcu/libraries/RTClib
+	url = https://github.com/adafruit/RTClib.git
