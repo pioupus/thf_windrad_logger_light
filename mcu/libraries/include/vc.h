@@ -1,0 +1,3 @@
+#define GITHASH 0x3371998c
+
+#define GITDATE "2016-10-07"
