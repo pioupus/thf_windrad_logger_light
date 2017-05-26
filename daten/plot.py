@@ -68,7 +68,7 @@ for root, dirs, files in os.walk("daten/"):
     #plt.subplot(211)
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m.%d.%Y %H:%M'))
     plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
-    plt.plot(data_date_time,np_data_current_A)
+    plt.plot(data_date_time,np_data_current_A,'o')
     plt.gcf().autofmt_xdate()
 
     plt.ylabel('current[A]')
